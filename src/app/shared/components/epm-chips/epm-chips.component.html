@@ -1,0 +1,11 @@
+<div
+  class="chips-container"
+  [class.active]="isActive"
+  (click)="onClick()"
+>
+  <div>
+    <img src="{{getImgSrc(chips)}}" alt="interests"/>
+  </div>
+  <span>{{chips}}</span>
+  <img *ngIf="isEditable" src="{{getEditableIcon(isActive)}}" alt="isEditable"/>
+</div>

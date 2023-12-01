@@ -1,0 +1,17 @@
+.chips-container {
+  border: #A5A8BA solid 1px;
+  border-radius: 32px;
+  padding: 4px 16px 4px 4px;
+  color: #1F1F26;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.active {
+  border: #6168E4 solid 1px !important;
+  background: #ebeeff;
+}
